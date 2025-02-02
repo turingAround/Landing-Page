@@ -1,0 +1,175 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #1F2937;
+    padding: 1rem 15%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav span {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero section */
+main section:first-child {
+    background-color: #1F2937;
+    padding: 6rem 15%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+main section:first-child div:first-child {
+    flex: 1;
+}
+
+main section:first-child h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 0.5rem;
+}
+
+main section:first-child p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 1rem;
+}
+
+main section:first-child img {
+    flex: 1;
+    width: 100%;
+    height: auto;
+}
+
+/* Information section */
+main section:nth-child(2) {
+    padding: 3rem 15%;
+    text-align: center;
+}
+
+main section:nth-child(2) h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+main section:nth-child(2) > div {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+main section:nth-child(2) img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+main section:nth-child(2) p {
+    color: #4B5563;
+    font-size: 16px;
+    max-width: 150px;
+}
+
+/* Quote section */
+main section:nth-child(3) {
+    background-color: #E5E7EB;
+    padding: 6rem 15%;
+}
+
+blockquote {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+blockquote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 1rem;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Call to action section */
+main section:nth-child(4) {
+    padding: 5rem 15%;
+}
+
+main section:nth-child(4) > div {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+main section:nth-child(4) h3 {
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+}
+
+/* Button styles */
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main section:nth-child(4) button {
+    border: 2px solid white;
+}
+
+/* Footer styles */
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 2rem;
+}
